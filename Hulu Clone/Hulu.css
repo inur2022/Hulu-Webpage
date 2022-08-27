@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=M+PLUS+1p:wght@400;500&family=Roboto:wght@400;500&family=Rubik:wght@300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+html,
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: black;
+    color: white;
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+a:hover {
+color: grey;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%; 
+}
+
+h4 {
+    color: #00ed82;
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+
+.btn {
+    display: inline-block;
+    background: #fff;
+    color: #333;
+    min-width: 135px;
+    padding: 20px 32px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 14px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-cta:hover {
+    opacity: 0.8;
+}
+
+.legal-text {
+    font-size: 10px;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+.header {
+    height: 530px;
+    background: url(https://www.hulu.com/static/hitch/s3/attachments/ckzoylttk003x1v6mcd4p0gk2-ckxgnvin29r771v5fyutjbf5c-bundle-6400x2640-desktop-1x.jpg)
+    no-repeat center center / cover;
+}  
+
+.header nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px;
+}
+
+
+.header nav .login-btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.header .logo {
+    width: 270px;
+    margin: 20px 0;
+}
+
+.header .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px; 
+
+}
+
+.header .header-text-1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.header .header-text-2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 25px 0;
+}
+
+.sub-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 50px 40px;
+    margin-top: 30px;
+}
+
+.plans {
+    color: #00ed82;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+.section-text-1 {
+    font-size: 50px;
+    /* font-weight: bold; */
+    text-align: center;
+}
+
+.section-text-2 {
+    font-size: 16px;
+    /* font-weight: bold; */
+    text-align: center;
+}
+
+.covers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 90px 40px;
+}
+
+.subtitle .cover-text .cover { 
+    height: 500px;
+    width: 300px;
+    position: relative;  
+    
+
+}
+
+.cover-grad {
+    position:absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: linear-Gradient(
+        156.82deg,
+        rgba (0,0,0,0.6) 4.58%,
+        rgba (0,0,0,0) 69.61% ),
+
+        linear-gradient(24.5deg, rgba (0,0,0,0.2) 4.71%, rgba (0,0,0,0) 71.49%);
+    
+}
+
+.cover-text {
+    position: absolute;
+}
+
+.cover-1 {
+    background: url(https://www.hulu.com/static/hitch/s3/attachments/ckzix4ce0m28n1k7rwhwjufa7-ckllond4i0i9w1u7ghnu91j1b-bobsburgers-category-tile-294x450-1x-full.jpg) no-repeat center center / cover;
+}
+
+.cover-2 {
+    background: url(https://www.hulu.com/static/hitch/s3/attachments/ckzix6os0m2cl1k7rmtowojwd-cklms7f221g6z1u6ye8eurm1e-unitedstatesvsbillieholiday-category-tile-294x450-1x-1-full.jpg) no-repeat center center / cover;
+}
+
+.cover-3 {
+    background: url(https://www.hulu.com/static/hitch/s3/attachments/ckzix9rkis6t31v5mteb3tnon-ckzix7nm8s6q01v5mrhx8mjms-cktarx0vs0o9q1w7av35olnl8-nine-perfect-strangers-category-poster-tile-294x450-2x-full-full.jpg) no-repeat center center / cover;
+}
+
+.cover-4 {
+    background: url(https://www.hulu.com/static/hitch/s3/attachments/ckzixaonhhgrc1k6w2bn2vte1-cktaw41ct0trg1v5yjb2aysun-billions-category-poster-tile-v1-294x450-2x-full.jpg) no-repeat center center / cover;
+}
